@@ -1,0 +1,19 @@
+{
+    "name": "SentimentAnalysisDL",
+    "module": "SentimentAnalysisDL",
+    "description": "Sentiment Analysis using LSTM",
+    "author": "@sapneg @vlaand",
+    "version": "1.0.0",
+    "async": False,
+     
+    "requirements": [
+        "nltk==3.1",
+        "numpy==1.10.4",
+        "scipy==0.18.1",
+        "scikit-learn==0.17.1",
+        "h5py==2.6.0",
+        "theano==0.8.2",
+        "senpy",
+        "keras==1.1.0"
+        ]
+}
