@@ -1,7 +1,7 @@
 PYVERSION=3.5
 NAME=01_sentiment_analysis_nuig
 REPO=mixedemotions
-VERSION=1.0.0
+VERSION=1.0.1
 PLUGINS= $(filter %/, $(wildcard */))
 
 
