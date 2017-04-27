@@ -1,16 +1,13 @@
 # NUIG-sentiment
-A sentiment predictor for tweets. Uses Convolutional Neural Networks and pre-trained Glove embeddings for twitter.
-
-Trained on flattened sentiment treebank dataset: https://nlp.stanford.edu/sentiment/ (Socher et al. 2013)
-
-The embeddings need to be downloaded from here: 
-http://nlp.stanford.edu/projects/glove/  , download glove.twitter.27B.zip. Open the zipped file and use the embeddings of with 100 dimensions.
+A sentiment predictor for tweets. Uses LSTM neural networks and pre-trained Glove word representations.
 
 ## REQUIREMENTS
 
 This package requires python3.5, rest of the requirements are listed in the requirement file.
 Read the separate readme provided in the "embeddings" and "savedModels" folders.
 
+The embeddings need to be downloaded from here: 
+http://nlp.stanford.edu/projects/glove/, download glove.6B.zip. Open the zipped file and use the embeddings of with 200 dimensions.
 
 ## INSTALLATION
 
@@ -25,7 +22,7 @@ The service should return 'positive', 'negative', or 'neutral'
 ## CREDITS (citations if available)
 
 The neural network based classifier has been implemented using the deep learning library KERAS [site](https://keras.io).
-
+Trained on flattened sentiment treebank dataset: https://nlp.stanford.edu/sentiment/ (Socher et al. 2013)
 
 ## ACKNOWLEDGEMENT
 
